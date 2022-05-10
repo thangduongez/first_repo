@@ -94,10 +94,13 @@ header {
   align-items: center;
   justify-content: center;
 }
-
+.banner_avatar  .banner_avatar__background {
+  background-color: #eaf9fa;
+}
 .banner_avatar img {
-  width: 200px;
-  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  height: 100%
 }
 
 .banner_name2 {
