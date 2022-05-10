@@ -94,14 +94,57 @@ header {
   align-items: center;
   justify-content: center;
 }
+
+.banner_avatar {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  background-color:transparent;
+  overflow: hidden;
+}
+
 .banner_avatar  .banner_avatar__background {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 300px;
+  height: 300px;
   background-color: #eaf9fa;
+  overflow: hidden;
+  border-radius: 50%;
 }
+
+.banner_avatar .banner_avatar__background img {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 400px;
+}
+
+
 .banner_avatar img {
-  width: 100%;
-  object-fit: cover;
-  height: 100%
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 400px;
 }
+
+.banner_avatar::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 300px;
+  height: 300px;
+  background-color: transparent;
+  border-radius: 50%;
+  z-index: 1;
+  box-shadow: 0 100px 0 40px #fff;
+}
+
+
 
 .banner_name2 {
   text-align: center;
