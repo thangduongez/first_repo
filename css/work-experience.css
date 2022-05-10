@@ -1,5 +1,25 @@
 .work-experience{
-    width: 100%;
+    width: 1700px;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
+    margin-bottom: 200px;
+}
+.table-work-experience{
+    width: 65%;
+}
+.table-work-experience h1 {
+    font-size: 40px;
+}
+/* .table-work-experience__title h1{
+   
+} */
+.table-work-experience__item{
+    display: flex; 
+    gap: 1rem; 
+    flex-direction: column;
+}
+.table-work-experience__col1{
+    display: flex;
+    gap: 10rem;
 }
