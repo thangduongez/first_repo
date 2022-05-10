@@ -1,25 +1,34 @@
-.work-experience{
-    width: 1700px;
+.work-experience {
+    width: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: center;
     margin-bottom: 200px;
 }
-.table-work-experience{
+
+.table-work-experience {
     width: 65%;
 }
+
 .table-work-experience h1 {
     font-size: 40px;
 }
+
 /* .table-work-experience__title h1{
    
 } */
-.table-work-experience__item{
-    display: flex; 
-    gap: 1rem; 
+.table-work-experience__item {
+    display: flex;
+    gap: 2rem;
     flex-direction: column;
 }
-.table-work-experience__col1{
+
+.table-work-experience__col1 {
     display: flex;
-    gap: 10rem;
+    padding-top: 30px;
+    gap: 280px;
+}
+
+.table-work-experience__item__content {
+    line-height: 34px;
 }

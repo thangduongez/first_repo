@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="./styles.css" />
     <link rel="stylesheet" href="./css/work-experience.css" />
+    <link rel="stylesheet" href="./css/footer-section.css" />
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
     </style>
@@ -19,11 +20,11 @@
       <div class="container">
         <nav class="navbar">
           <div class="navbar__logo">
-            <div class="navbar__logo__icon">
+            <!-- <div class="navbar__logo__icon">
               <i class="fa-solid fa-envelope"></i>
-            </div>
+            </div> -->
             <div class="navbar__logo__email">
-              <a href="#">thang.duong@nfq.asia</a>
+              <img src="./img/NFQLogo.png" alt="" />
             </div>
           </div>
           <ul class="navbar__links">
@@ -46,9 +47,9 @@
     <section class="banner">
       <div class="banner_avatar">
         <div class="banner_avatar__background">
-          <img src="./img/avatarImage.png" alt="" />
+          <img src="./img/thangImage.png" alt="" />
         </div>
-        <img src="./img/avatarImage.png" alt="">
+        <img src="./img/thangImage.png" alt="" />
       </div>
       <div class="banner_name">
         <h2>Hi, I'm Duong Huu Thang</h2>
@@ -117,24 +118,60 @@
     <section class="banner__client">
       <h1>Clients</h1>
       <div class="banner__client__lists">
-        <div class="banner__client__list">
-          <i class="fa-brands fa-github fa-lg"></i>
+        <div
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+          data-aos-delay="500"
+        >
+          <div class="banner__client__list">
+            <i class="fa-brands fa-github fa-lg"></i>
+          </div>
         </div>
-        <div class="banner__client__list">
-          <i class="fa-brands fa-node fa-lg"></i>
+        <div
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+          data-aos-delay="400"
+        >
+          <div class="banner__client__list">
+            <i class="fa-brands fa-node fa-lg"></i>
+          </div>
         </div>
-        <div class="banner__client__list">
-          <i class="fa-brands fa-react fa-lg"></i>
+        <div
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+          data-aos-delay="300"
+        >
+          <div class="banner__client__list">
+            <i class="fa-brands fa-react fa-lg"></i>
+          </div>
         </div>
-        <div class="banner__client__list">
-          <i class="fa-brands fa-css3"></i>
+
+        <div
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+          data-aos-delay="200"
+        >
+          <div class="banner__client__list">
+            <i class="fa-brands fa-css3"></i>
+          </div>
         </div>
-        <div class="banner__client__list">
-          <img
-            style="width: 64px; height: 64px"
-            src="./img/typescript.png"
-            alt="typescript"
-          />
+        <div
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+          data-aos-delay="100"
+        >
+          <div class="banner__client__list">
+            <img
+              style="width: 64px; height: 64px"
+              src="./img/typescript.png"
+              alt="typescript"
+            />
+          </div>
         </div>
       </div>
     </section>
@@ -223,7 +260,7 @@
               <h2>Work Experience</h2>
             </div>
             <div class="table-work-experience__item__content">
-              <h3>Uber</h3>
+              <h3>Uber <i class="fa-solid fa-arrow-trend-up"></i></h3>
               <h4>Product Designer</h4>
               <div>
                 <span> August 2018 </span>
@@ -231,7 +268,7 @@
               </div>
             </div>
             <div class="table-work-experience__item__content">
-              <h3>Apple</h3>
+              <h3>Apple <i class="fa-solid fa-arrow-trend-up"></i></h3>
               <h4>Product Designer</h4>
               <div>
                 <span> December 2019 </span>
@@ -244,7 +281,10 @@
               <h2>Education</h2>
             </div>
             <div class="table-work-experience__item__content">
-              <h3>SUNY Polytechni Insitute</h3>
+              <h3>
+                SUNY Polytechni Insitute
+                <i class="fa-solid fa-arrow-trend-up"></i>
+              </h3>
               <h4>MS * information & Technology</h4>
               <div>
                 <span> 2016 </span>
@@ -252,7 +292,10 @@
               </div>
             </div>
             <div class="table-work-experience__item__content">
-              <h3>Florida Gulf Coast University</h3>
+              <h3>
+                Florida Gulf Coast University
+                <i class="fa-solid fa-arrow-trend-up"></i>
+              </h3>
               <h4>BA * Psychology</h4>
               <div>
                 <span> 2014 </span>
@@ -267,6 +310,32 @@
     <!-- <section class="list-project-section">
 
     </section> -->
+    <footer class="footer-section">
+      <div class="footer-container">
+        <ul class="footer_lists">
+          <li class="footeter_list">
+            <i class="fa-brands fa-facebook"></i>
+          </li>
+          <li class="footeter_list">
+            <i class="fa-brands fa-instagram-square"></i>
+          </li>
+          <li class="footeter_list">
+            <i class="fa-brands fa-twitter"></i>
+          </li>
+          <li>
+            <i class="fa-brands fa-linkedin"></i>
+          </li>
+        </ul>
+        <div class="footer_contact">
+          <div class="footer_contact__icon">
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+          <div class="footer_contact_email">
+            <p>thang.duong@nfq.asia</p>
+          </div>
+        </div>
+      </div>
+    </footer>
     <script
       src="https://kit.fontawesome.com/09aa63e20e.js"
       crossorigin="anonymous"
