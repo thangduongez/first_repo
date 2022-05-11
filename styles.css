@@ -19,6 +19,7 @@ body {
   font-family: 'Poppins', sans-serif;
   width: 100%;
   padding: 140px;
+  padding-top: 0;
 }
 
 img {
@@ -36,6 +37,7 @@ header {
 section{
   width: 100%;
   padding: 140px; 
+  padding-top: 0;
 }
 .container {
   width: 100%;
