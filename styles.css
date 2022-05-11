@@ -17,9 +17,10 @@ html {
 
 body {
   font-family: 'Poppins', sans-serif;
-  width: 100%;
-  padding: 140px;
+  width: 1280px;
+  /* padding: 140px; */
   padding-top: 0;
+  margin: 0 auto;
 }
 
 img {
@@ -31,16 +32,16 @@ img {
 header {
   display: flex;
   justify-content: center;
-  margin: 20px 28px;
+  margin: 0 28px;
   margin-bottom: 0px;
 }
 section{
-  width: 100%;
-  padding: 140px; 
+  width: 1280px;
+  /* padding: 140px;  */
   padding-top: 0;
 }
 .container {
-  width: 100%;
+  width: 1280px;
   /* padding: 140px; */
   display: flex;
   justify-content: center;
@@ -101,7 +102,7 @@ section{
   display: flex;
   margin: 0 auto;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1rem;
   align-items: center;
   justify-content: center;
 }
