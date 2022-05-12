@@ -23,6 +23,7 @@
     flex-direction: column;
 }
 
+
 .table-work-experience__col1 {
     display: flex;
     padding-top: 30px;
@@ -31,4 +32,9 @@
 
 .table-work-experience__item__content {
     line-height: 34px;
+}
+.table-work-experience__col1:nth-child(2) .table-work-experience__item {
+    display: flex;
+    gap: 2rem;
+    /* flex-direction: column; */
 }
