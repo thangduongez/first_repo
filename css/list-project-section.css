@@ -27,9 +27,7 @@
     line-height: 2rem;
 }
 
-/* .list-project-section__item img {
-    object-fit: cover;
-} */
+
 
 .list-project-section__item {}
 
@@ -61,6 +59,7 @@
     background-color: #e96514;
     transition: all 0.3 ease-in;
 }
+
 
 .find-project a {
     color: #fff;
