@@ -2,7 +2,11 @@
     width: 1280px;
     margin-bottom: 200px;
 }
-
+.list-project-section__title h1 {
+    margin: 0 auto;
+    width: fit-content;
+    
+}
 .list-project-section__container {
     width: 75%;
     margin: 0 auto;
@@ -53,12 +57,13 @@
     background-color: #000;
     border-radius: 26px;
     cursor: pointer;
+    transition: all .3s ease-in;
+
 }
 
 .find-project:hover {
     background-color: #e96514;
-    transition: all 0.3 ease-in;
-}
+}   
 
 
 .find-project a {
