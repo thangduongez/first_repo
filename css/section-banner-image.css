@@ -1,0 +1,120 @@
+/* bannner image  */
+.item1 {
+  grid-area: center;
+}
+
+.item2 {
+  grid-area: topleft;
+}
+
+.item3 {
+  grid-area: bottomleft;
+}
+
+.item4 {
+  grid-area: right;
+}
+
+.item5 {
+  grid-area: bottomright;
+}
+
+.banner-image {
+  display: grid;
+  gap: 1rem;
+  grid-template-areas:
+    "topleft center center center  right"
+    "topleft center center center bottomright"
+    "topleft center center center bottomright"
+    "bottomleft center center center bottomright";
+  width: 100%;
+
+  margin: 200px auto;
+}
+
+.banner-image__image {
+  display: flex;
+}
+
+.banner-image img {
+  width: auto;
+  height: 100%;
+}
+
+.banner-image__image img {
+  margin: 0 auto;
+  object-fit: cover;
+
+  object-position: top;
+}
+
+.banner-image__image-center {
+  /* flex: 3; */
+}
+
+/* /// banner client */
+.banner__client {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-bottom: 200px;
+  align-items: center;
+}
+
+.banner__client h1 {
+  font-size: 41px;
+}
+
+.banner__client__lists {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.banner__client__list img {
+  width: 80px;
+  height: 80px;
+}
+
+.banner__client__lists .banner__client__list {
+  font-size: 64px;
+  width: 200px;
+  height: 200px;
+  margin-top: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.banner__client__list {
+  filter: grayscale(100%);
+  transition: var(--smooth);
+  cursor: pointer;
+}
+
+.banner__client__list:hover {
+  transform: translateY(-12px);
+  filter: grayscale(0);
+}
+
+@media (max-width: 1300px) {
+  .banner-image {
+    display: grid;
+    gap: 1rem;
+    transition: var(--smooth);
+    grid-template-areas:
+    "center center  center center"
+    "topleft topleft  right  right"
+      "topleft topleft  right right"
+      "bottomleft bottomleft  bottomright bottomright"
+      "bottomleft bottomleft  bottomright bottomright"; 
+    margin: 200px auto;
+  }
+}
