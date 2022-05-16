@@ -1,19 +1,19 @@
-.footer-section{
-    width: 100%;
+.footer-section {
+
     margin: 0 auto;
     margin-bottom: 100px;
     display: flex;
     justify-content: center;
 }
 
-.footer-section .footer-container{
+.footer-section .footer-container {
     display: flex;
     width: 65%;
     align-items: center;
     justify-content: space-between
 }
 
-.footer_lists{
+.footer_lists {
     display: flex;
 
     gap: 3rem;
@@ -23,11 +23,11 @@
     list-style: none;
     font-size: 20px;
 }
-.footer_contact{
-    
+
+.footer_contact {
+
     display: flex;
     gap: 3rem;
 }
-.footer_contact_email {
-   
-}
+
+.footer_contact_email {}
