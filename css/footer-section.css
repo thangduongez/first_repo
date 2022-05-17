@@ -1,27 +1,35 @@
 .footer-section {
-
+    width: 75%;
     margin: 0 auto;
     margin-bottom: 100px;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
 }
 
 .footer-section .footer-container {
     display: flex;
-    width: 65%;
-    align-items: center;
-    justify-content: space-between
+    /* width: 65%; */
+    justify-content: center;
+
+    /* align-items: center; */
+    /* justify-content: space-between */
 }
 
 .footer_lists {
     display: flex;
-
-    gap: 3rem;
+    gap: 2rem;
 }
 
 .footer_lists li {
     list-style: none;
-    font-size: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    transition: var(--smooth);
+}
+
+.footer_lists li:hover {
+
+    color: var(--hover-a);
 }
 
 .footer_contact {

@@ -1,511 +1,585 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thang Duong Portfolio</title>
+    <link rel="icon" href="./img/nfqFaicon.jpg" type="image/x-icon" />
+    <!-- <meta property="og:image" content="https://www.w3schools.com/images/w3schools_logo_436_2.png"> -->
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./css/work-experience.css" />
+    <link rel="stylesheet" href="./css/footer-section.css" />
+    <link rel="stylesheet" href="./css/list-project-section.css" />
+    <link rel="stylesheet" href="./css/section-banner-image.css" />
+    <link rel="stylesheet" href="./css/header-section-responsive.css" />
+    <link rel="stylesheet" href="./css/navbar.css" />
+    <link rel="stylesheet" href="./css/section-banner.css" />
+    <link rel="stylesheet" href="./css/modalupImage.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  <!-- <meta property="og:image" content="https://www.w3schools.com/images/w3schools_logo_436_2.png"> -->
-  <link rel="stylesheet" href="./styles.css" />
-  <link rel="stylesheet" href="./css/work-experience.css" />
-  <link rel="stylesheet" href="./css/footer-section.css" />
-  <link rel="stylesheet" href="./css/list-project-section.css">
-  <link rel="stylesheet" href="./css/section-banner-image.css">
-  <link rel="stylesheet" href="./css/header-section-responsive.css">
-  <link rel="stylesheet" href="./css/navbar.css">
-  <link rel="stylesheet" href="./css/section-banner.css">
-  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+    </style>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </head>
 
-  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-  <style>
-    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
-  </style>
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <body>
+    <header>
+      <div class="container">
+        <nav class="navbar">
+          <div class="navbar__logo">
+            <div class="navbar__logo__email">
+              <img src="./img/NFQLogo.png" alt="" />
+            </div>
+          </div>
+          <ul class="navbar__links">
+            <li class="navbar__link">
+              <a href="#">Works</a>
+            </li>
+            <li class="navbar__link">
+              <a href="#">Resume</a>
+            </li>
+            <li class="navbar__link">
+              <a href="#">Services</a>
+            </li>
+            <li class="navbar__link">
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+          <div class="navbar_icons">
+            <div class="navbar_icon"></div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="banner">
+        <div class="banner_avatar">
+          <div class="banner_avatar__background">
+            <img src="./img/thangImage.png" alt="" />
+          </div>
+          <img src="./img/thangImage.png" alt="" />
+        </div>
+        <div class="banner_name">
+          <h2>Hi, I'm Duong Huu Thang</h2>
+        </div>
+        <div class="banner_name2">
+          <h1>Building digital products, brands, and experience</h1>
+        </div>
+        <div class="banner_name3">
+          <h2>
+            aProduct Design and Visual Developer is SF. i Spcecialize in UI/UX
+            Design , Responsive Web Design, and Visual Developmenet
+          </h2>
+        </div>
+        <div class="banner__btn">
+          <a href="#">Connect to me</a>
+        </div>
+      </section>
 
-</head>
+      <section class="banner-image">
+        <div
+          class="banner-image__image item3"
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1500"
+        >
+          <img src="./img/wp.webp" alt="work space 1" />
+        </div>
+        <div
+          class="banner-image__image item2"
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1500"
+        >
+          <img src="./img/Online.jpg" alt="work space 1" />
+        </div>
 
-<body>
-  <header>
-    <div class="container">
-      <nav class="navbar">
-        <div class="navbar__logo">
+        <div
+          class="banner-image__image item1"
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1500"
+        >
+          <img src="./img/workSpace1.jpg" alt="work space 2" />
+        </div>
 
-          <div class="navbar__logo__email">
-            <img src="./img/NFQLogo.png" alt="" />
+        <div
+          class="banner-image__image item4"
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1500"
+        >
+          <img src="./img/workSpace3.jpeg" alt="work space 3" />
+        </div>
+
+        <div
+          class="banner-image__image item5"
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1500"
+        >
+          <img src="./img/workSpace2.jpg" alt="work space 1" />
+        </div>
+      </section>
+
+      <section class="banner__client">
+        <h1>Clients</h1>
+        <div class="banner__client__lists">
+          <div
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+            data-aos-delay="500"
+          >
+            <div class="banner__client__list">
+              <img src="./img/github2.png" alt="typescript" />
+            </div>
+          </div>
+          <div
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+            data-aos-delay="400"
+          >
+            <div class="banner__client__list">
+              <img src="./img/js.png" alt="typescript" />
+            </div>
+          </div>
+          <div
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+            data-aos-delay="300"
+          >
+            <div class="banner__client__list">
+              <img src="./img/nodejs.png" alt="typescript" />
+            </div>
+          </div>
+
+          <div
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+            data-aos-delay="200"
+          >
+            <div class="banner__client__list">
+              <img src="./img/react.png" alt="typescript" />
+            </div>
+          </div>
+          <div
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+            data-aos-delay="100"
+          >
+            <div class="banner__client__list">
+              <img src="./img/ts.png" alt="typescript" />
+            </div>
+          </div>
+          <div
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+            data-aos-delay="100"
+          >
+            <div class="banner__client__list">
+              <img src="./img/iconatnd.png" alt="typescript" />
+            </div>
           </div>
         </div>
-        <ul class="navbar__links">
-          <li class="navbar__link">
-            <a href="#">Works</a>
+      </section>
+      <section class="banner_services">
+        <div class="banner_services__background"></div>
+        <div class="banner_services__content">
+          <h1>Services</h1>
+          <div class="banner_services__content__list">
+            <div
+              data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+            >
+              <div class="banner_services__content__item">
+                <div class="banner_services__content__item_content">
+                  <div class="banner_services__content__item-icon">
+                    <img src="./img/target.png" alt="target icon" />
+                  </div>
+                  <h2>Strategy & Deriection</h2>
+                  <p>
+                    Defining the problem, identifying the scrope and finally ,
+                    organising the design roadmap to bring out 100% of every
+                    project
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+            >
+              <div class="banner_services__content__item">
+                <div class="banner_services__content__item_content">
+                  <div class="banner_services__content__item-icon">
+                    <img src="./img/writing.png" alt="writing icon" />
+                  </div>
+                  <h2>Design UI/UX</h2>
+                  <p>
+                    Website, application or orther design related tasks, love
+                    tackling digital problems and help fix them
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+            >
+              <div class="banner_services__content__item">
+                <div class="banner_services__content__item_content">
+                  <div class="banner_services__content__item-icon">
+                    <img src="./img/target.png" alt="" />
+                  </div>
+                  <h2>Strategy & Deriection</h2>
+                  <p>
+                    Defining the problem, identifying the scrope and finally ,
+                    organising the design roadmap to bring out 100% of every
+                    project
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- seactions -->
+      <section class="work-experience">
+        <table class="table-work-experience">
+          <tr>
+            <th>
+              <h1>Work experience</h1>
+            </th>
+          </tr>
+          <!-- row 1 -->
+          <tr class="table-work-experience__col1">
+            <td class="table-work-experience__item item_col1">
+              <div class="table-work-experience__title">
+                <h2>Work Experience</h2>
+              </div>
+              <div class="table-work-experience__item__content">
+                <h3>Uber <i class="fa-solid fa-arrow-trend-up"></i></h3>
+                <h4>Product Designer</h4>
+                <div>
+                  <span> August 2018 </span>
+                  <span> December 2019 </span>
+                </div>
+              </div>
+              <div class="table-work-experience__item__content">
+                <h3>Apple <i class="fa-solid fa-arrow-trend-up"></i></h3>
+                <h4>Product Designer</h4>
+                <div>
+                  <span> December 2019 </span>
+                  <span> Current </span>
+                </div>
+              </div>
+            </td>
+            <td class="table-work-experience__item item_col2">
+              <div class="table-work-experience__title">
+                <h2>Education</h2>
+              </div>
+              <div class="table-work-experience__item__content">
+                <h3>
+                  SUNY Polytechni Insitute
+                  <i class="fa-solid fa-arrow-trend-up"></i>
+                </h3>
+                <h4>MS * information & Technology</h4>
+                <div>
+                  <span> 2016 </span>
+                  <span> 2017 </span>
+                </div>
+              </div>
+              <div class="table-work-experience__item__content">
+                <h3>
+                  Florida Gulf Coast University
+                  <i class="fa-solid fa-arrow-trend-up"></i>
+                </h3>
+                <h4>BA * Psychology</h4>
+                <div>
+                  <span> 2014 </span>
+                  <span> 2015 </span>
+                </div>
+              </div>
+            </td>
+          </tr>
+
+          
+          <!-- row 2 -->
+          <!-- <tr class="table-work-experience__col1">
+  
+          <td class="table-work-experience__item item_col1 ">
+            <div class="table-work-experience__item__title">
+              <h2>Skills</h2>
+            </div>
+            <div class="item_flex_row">
+              <div class="table-work-experience__item__content">
+                <div class="table-work-experience__item__content">
+                  <h3>Apple <i class="fa-solid fa-arrow-trend-up"></i></h3>
+                  <h4>Product Designer</h4>
+                  <div>
+                    <span> December 2019 </span>
+                    <span> Current </span>
+                  </div>
+                </div>
+                <div class="table-work-experience__item__content">
+                  <h3>Apple <i class="fa-solid fa-arrow-trend-up"></i></h3>
+                  <h4>Product Designer</h4>
+                  <div>
+                    <768>Apple <i class="fa-solid fa-arrow-trend-up"></i></h3>
+                  <h4>Product Designer</h4>
+                  <div>
+                    <span> December 2019 </span>
+                    <span> Current </span>
+                  </div>
+                </div>
+                <div class="table-work-experience__item__content">
+                  <h3>Apple <i class="fa-solid fa-arrow-trend-up"></i></h3>
+                  <h4>Product Designer</h4>
+                  <div>
+                    <span> December 2019 </span>
+                    <span> Current </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+          </td>
+          <td class="table-work-experience__item item_col2_gap1">
+            <div class="table-work-experience__item__content">
+              <div class="table-work-experience__item__title">
+                <h2>Online Courses</h2>
+              </div>
+              <div class="table-work-experience__item__content">
+                <h3>Apple <i class="fa-solid fa-arrow-trend-up"></i></h3>
+                <h4>Product Designer</h4>
+                <div>
+                  <span> December 2019 </span>
+                  <span> Current </span>
+                </div>
+              </div>
+              <div class="table-work-experience__item__content">
+                <h3>Apple <i class="fa-solid fa-arrow-trend-up"></i></h3>
+                <h4>Product Designer</h4>
+                <div>
+                  <span> December 2019 </span>
+                  <span> Current </span>
+                </div>
+              </div>
+            </div>
+          </td>
+        </tr> -->
+
+          <!-- row 3-->
+          <!-- <tr>
+          <td class="table-work-experience__item item_col1">
+            <div class="table-work-experience__item__content">
+              <h3>Tools <i class="fa-solid fa-arrow-trend-up"></i></h3>
+  
+              <div style="display: flex ; flex-direction: column;">
+                <span> Figma </span>
+                <span> WebFlow </span>
+                <span> Bravo </span>
+                <span> Visual Studio Code</span>
+                <span> Photoshop </span>
+  
+              </div>
+            </div>
+  
+            </div>
+          </td>
+        </tr> -->
+        </table>
+        <div class="work-experience__background"></div>
+        <div class="work-experience__cricle"></div>
+      </section>
+      <!-- list project -->
+      <section class="list-project-section">
+        <div class="list-project-section__container">
+          <div class="list-project-section__title">
+            <h1>What i do ?</h1>
+          </div>
+          <div class="list-project-section__contents">
+            <div class="list-project-section__content">
+              <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                <div class="list-project-section__item">
+                  <div class="list-project-section__image">
+                    <img id="myImg" src="./img/kanso.webp" alt="trello" />
+                  </div>
+                  <div class="list-project-section__item__description">
+                    <h2>Kanso</h2>
+                    <p>
+                      kanso is a Polish employemment flatfrom. It often helps
+                      developers to find a job that suits them easily by
+                      filtering
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                <div class="list-project-section__item">
+                  <div class="list-project-section__image">
+                    <img id="myImg" src="./img/chat.webp" alt="Chat" />
+                  </div>
+
+                  <div class="list-project-section__item__description">
+                    <h2>Chat-realtime</h2>
+                    <p>
+                      kanso is a Polish employemment flatfrom. It often helps
+                      developers to find a job that suits them easily by
+                      filtering
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                <div class="find-project">
+                  <a href="#">Connect to me</a>
+                </div>
+              </div>
+            </div>
+            <div
+              class="list-project-section__content"
+              style="padding-top: 30px"
+            >
+              <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                <div class="list-project-section__item">
+                  <div class="list-project-section__image">
+                    <img id="myImg" src="./img/meeting.webp" alt="trello" />
+                  </div>
+                  <div class="list-project-section__item__description">
+                    <h2>Video Call application</h2>
+                    <p>
+                      kanso is a Polish employemment flatfrom. It often helps
+                      developers to find a job that suits them easily by
+                      filtering
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                <div class="list-project-section__item">
+                  <div class="list-project-section__image">
+                    <img id="myImg" src="./img/Movie.webp" alt="zxczxc" />
+                  </div>
+                  <div class="list-project-section__item__description">
+                    <h2>Movie App</h2>
+                    <p>
+                      kanso is a Polish employemment flatfrom. It often helps
+                      developers to find a job that suits them easily by
+                      filtering
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- project footer -->
+      <section class="brands-section">
+        <div class="brands-section__container">
+          <div class="brands-section-right">
+            <div class="brands-section-right__title">
+              <h1>Trusted by Brands all over the world</h1>
+            </div>
+            <div class="brands-section-right__content">
+              <img id="myImg" src="./img/oke.png" alt="LOL" />
+            </div>
+          </div>
+
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="brands-section-left__content swiper-slide">
+                <h2>Oguz is by far my favourite UX/UI Designer</h2>
+                <p>
+                  and creative visionary. Working with him is alwmen is out of
+                  ays an amazing experience. His design acumen is out of this
+                  world and he really pours his heart and soul into every
+                  project. Highly recommend for UI/UX education & speaking
+                  opportunities as well as design lead for project of all sizes.
+                  THanks for everything you do
+                </p>
+              </div>
+              <div class="brands-section-left__content swiper-slide">
+                <h2>Oguz is by far my favourite UX/UI Designer</h2>
+                <p>
+                  and creative visionary. Working with him is alwmen is out of
+                  ays an amazing experience. His design acumen is out of this
+                  world and he really pours his heart and soul into every
+                  project. Highly recommend for UI/UX education & speaking
+                  opportunities as well as design lead for project of all sizes.
+                  THanks for everything you do
+                </p>
+              </div>
+              <div class="brands-section-left__content swiper-slide">
+                <h2>Oguz is by far my favourite UX/UI Designer</h2>
+                <p>
+                  and creative visionary. Working with him is alwmen is out of
+                  ays an amazing experience. His design acumen is out of this
+                  world and he really pours his heart and soul into every
+                  project. Highly recommend for UI/UX education & speaking
+                  opportunities as well as design lead for project of all sizes.
+                  THanks for everything you do
+                </p>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer-section">
+      <div class="footer-container">
+        <ul class="footer_lists">
+          <li class="footeter_list">
+            <i class="fa-brands fa-facebook"></i>
           </li>
-          <li class="navbar__link">
-            <a href="#">Resume</a>
+          <li class="footeter_list">
+            <i class="fa-brands fa-instagram-square"></i>
           </li>
-          <li class="navbar__link">
-            <a href="#">Services</a>
+          <li class="footeter_list">
+            <i class="fa-brands fa-twitter"></i>
           </li>
-          <li class="navbar__link">
-            <a href="#">Contact</a>
+          <li>
+            <i class="fa-brands fa-linkedin"></i>
           </li>
         </ul>
-        <div class="navbar_icons">
-          <div class="navbar_icon">
-
-          </div>
-        </div>
-      </nav>
-    </div>
-  </header>
-  <section class="banner">
-    <div class="banner_avatar">
-      <div class="banner_avatar__background">
-        <img src="./img/thangImage.png" alt="" />
       </div>
-      <img src="./img/thangImage.png" alt="" />
-    </div>
-    <div class="banner_name">
-      <h2>Hi, I'm Duong Huu Thang</h2>
-    </div>
-    <div class="banner_name2">
-      <h1>Building digital products, brands, and experience</h1>
-    </div>
-    <div class="banner_name3">
-      <h2>
-        aProduct Design and Visual Developer is SF. i Spcecialize in UI/UX
-        Design , Responsive Web Design, and Visual Developmenet
-      </h2>
-    </div>
-    <div class="banner__btn">
-      <a href="#">Connect to me</a>
-    </div>
-  </section>
+    </footer>
 
-
-  <section class="banner-image">
-    <div class="banner-image__image  item3" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
-      <img src="./img/wp.webp" alt="work space 1" />
-    </div>
-    <div class="banner-image__image item2" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
-      <img src="./img/Online.jpg" alt="work space 1" />
-    </div>
-
-    <div class="banner-image__image  item1" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
-      <img src="./img/workSpace1.jpg" alt="work space 2" />
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="img01" />
+      <div id="caption"></div>
     </div>
 
 
-
-    <div class="banner-image__image  item4" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
-      <img src="./img/workSpace3.jpeg" alt="work space 3" />
-    </div>
-
-    <div class="banner-image__image  item5" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
-      <img src="./img/workSpace2.jpg" alt="work space 1" />
-    </div>
-
-  </section>
-
-
-  <section class="banner__client">
-    <h1>Clients</h1>
-    <div class="banner__client__lists">
-      <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-delay="500">
-        <div class="banner__client__list">
-          <img src="./img/github2.png" alt="typescript" />
-        </div>
-      </div>
-      <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-delay="400">
-        <div class="banner__client__list">
-          <img src="./img/js.png" alt="typescript" />
-        </div>
-      </div>
-      <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-delay="300">
-        <div class="banner__client__list">
-          <img src="./img/nodejs.png" alt="typescript" />
-        </div>
-      </div>
-
-      <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-delay="200">
-        <div class="banner__client__list">
-          <img src="./img/react.png" alt="typescript" />
-        </div>
-      </div>
-      <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-delay="100">
-        <div class="banner__client__list">
-          <img src="./img/ts.png" alt="typescript" />
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="banner_services">
-    <div class="banner_services__background"></div>
-    <div class="banner_services__content">
-      <h1>
-        Services
-        <div class="box"></div>
-      </h1>
-      <div class="banner_services__content__list">
-        <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
-          <div class="banner_services__content__item">
-            <div class="banner_services__content__item_content">
-              <div class="banner_services__content__item-icon">
-                <img src="./img/target.png" alt="target icon" />
-              </div>
-              <h2>Strategy & Deriection</h2>
-              <p>
-                Defining the problem, identifying the scrope and finally ,
-                organising the design roadmap to bring out 100% of every
-                project
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
-          <div class="banner_services__content__item">
-            <div class="banner_services__content__item_content">
-              <div class="banner_services__content__item-icon">
-                <img src="./img/writing.png" alt="writing icon" />
-              </div>
-              <h2>Design UI/UX</h2>
-              <p>
-                Website, application or orther design related tasks, love
-                tackling digital problems and help fix them
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
-          <div class="banner_services__content__item">
-            <div class="banner_services__content__item_content">
-              <div class="banner_services__content__item-icon">
-                <img src="./img/target.png" alt="" />
-              </div>
-              <h2>Strategy & Deriection</h2>
-              <p>
-                Defining the problem, identifying the scrope and finally ,
-                organising the design roadmap to bring out 100% of every
-                project
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- seactions -->
-  <section class="work-experience">
-    <table class="table-work-experience">
-      <tr>
-        <th>
-          <h1>Work experience</h1>
-        </th>
-      </tr>
-      <!-- row 1 -->
-      <tr class="table-work-experience__col1">
-        <td class="table-work-experience__item item_col1">
-          <div class="table-work-experience__title">
-            <h2>Work Experience</h2>
-          </div>
-          <div class="table-work-experience__item__content">
-            <h3>Uber <i class="fa-solid fa-arrow-trend-up"></i></h3>
-            <h4>Product Designer</h4>
-            <div>
-              <span> August 2018 </span>
-              <span> December 2019 </span>
-            </div>
-          </div>
-          <div class="table-work-experience__item__content">
-            <h3>Apple <i class="fa-solid fa-arrow-trend-up"></i></h3>
-            <h4>Product Designer</h4>
-            <div>
-              <span> December 2019 </span>
-              <span> Current </span>
-            </div>
-          </div>
-        </td>
-        <td class="table-work-experience__item item_col2">
-          <div class="table-work-experience__title">
-            <h2>Education</h2>
-          </div>
-          <div class="table-work-experience__item__content">
-            <h3>
-              SUNY Polytechni Insitute
-              <i class="fa-solid fa-arrow-trend-up"></i>
-            </h3>
-            <h4>MS * information & Technology</h4>
-            <div>
-              <span> 2016 </span>
-              <span> 2017 </span>
-            </div>
-          </div>
-          <div class="table-work-experience__item__content">
-            <h3>
-              Florida Gulf Coast University
-              <i class="fa-solid fa-arrow-trend-up"></i>
-            </h3>
-            <h4>BA * Psychology</h4>
-            <div>
-              <span> 2014 </span>
-              <span> 2015 </span>
-            </div>
-          </div>
-        </td>
-      </tr>
-
-      <!-- row 2 -->
-      <tr class="table-work-experience__col1">
-        <td class="table-work-experience__item item_col1 item_flex_row">
-          <div class="table-work-experience__item__content">
-            <div class="table-work-experience__item__content">
-              <h3>Apple <i class="fa-solid fa-arrow-trend-up"></i></h3>
-              <h4>Product Designer</h4>
-              <div>
-                <span> December 2019 </span>
-                <span> Current </span>
-              </div>
-            </div>
-            <div class="table-work-experience__item__content">
-              <h3>Apple <i class="fa-solid fa-arrow-trend-up"></i></h3>
-              <h4>Product Designer</h4>
-              <div>
-                <span> December 2019 </span>
-                <span> Current </span>
-              </div>
-            </div>
-          </div>
-          <div class="table-work-experience__item__content">
-            <div class="table-work-experience__item__content">
-              <h3>Apple <i class="fa-solid fa-arrow-trend-up"></i></h3>
-              <h4>Product Designer</h4>
-              <div>
-                <span> December 2019 </span>
-                <span> Current </span>
-              </div>
-            </div>
-            <div class="table-work-experience__item__content">
-              <h3>Apple <i class="fa-solid fa-arrow-trend-up"></i></h3>
-              <h4>Product Designer</h4>
-              <div>
-                <span> December 2019 </span>
-                <span> Current </span>
-              </div>
-            </div>
-          </div>
-        </td>
-        <td class="table-work-experience__item item_col2">
-          <div class="table-work-experience__item__content">
-            <div class="table-work-experience__item__content">
-              <h3>Apple <i class="fa-solid fa-arrow-trend-up"></i></h3>
-              <h4>Product Designer</h4>
-              <div>
-                <span> December 2019 </span>
-                <span> Current </span>
-              </div>
-            </div>
-            <div class="table-work-experience__item__content">
-              <h3>Apple <i class="fa-solid fa-arrow-trend-up"></i></h3>
-              <h4>Product Designer</h4>
-              <div>
-                <span> December 2019 </span>
-                <span> Current </span>
-              </div>
-            </div>
-          </div>
-        </td>
-      </tr>
-
-
-      <!-- row 2 -->
-      <tr>
-        <td class="table-work-experience__item item_col1">
-          <div class="table-work-experience__item__content">
-            <h3>Tools <i class="fa-solid fa-arrow-trend-up"></i></h3>
-
-            <div style="display: flex ; flex-direction: column;">
-              <span> Figma </span>
-              <span> WebFlow </span>
-              <span> Bravo </span>
-              <span> Visual Studio Code</span>
-              <span> Photoshop </span>
-
-            </div>
-          </div>
-
-          </div>
-        </td>
-      </tr>
-    </table>
-    <div class="work-experience__background">
-
-    </div>
-    <div class="work-experience__cricle">
-
-    </div>
-  </section>
-  <!-- list project -->
-  <section class="list-project-section">
-    <div class="list-project-section__container">
-      <div class="list-project-section__title">
-        <h1>The work I do</h1>
-      </div>
-      <div class="list-project-section__contents">
-        <div class="list-project-section__content">
-          <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
-            <div class="list-project-section__item">
-              <div class="list-project-section__image">
-                <img src="./img/kanso.webp" alt="trello">
-              </div>
-              <div class="list-project-section__item__description">
-                <h2>Kanso</h2>
-                <p>
-                  kanso is a Polish employemment flatfrom. It often helps developers to find a job that suits them
-                  easily by filtering
-                </p>
-              </div>
-            </div>
-          </div>
-          <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
-            <div class="list-project-section__item">
-              <div class="list-project-section__image">
-                <img src="./img/chat.webp" alt="Chat">
-              </div>
-
-              <div class="list-project-section__item__description">
-                <h2>Chat-realtime</h2>
-                <p>
-                  kanso is a Polish employemment flatfrom. It often helps developers to find a job that suits them
-                  easily by filtering
-                </p>
-              </div>
-            </div>
-          </div>
-          <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
-
-            <div class="find-project">
-              <a href="#">Connect to me</a>
-            </div>
-          </div>
-        </div>
-        <div class="list-project-section__content" style="    padding-top: 30px;">
-
-          <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
-            <div class="list-project-section__item">
-              <div class="list-project-section__image">
-                <img src="./img/meeting.webp" alt="trello">
-              </div>
-              <div class="list-project-section__item__description">
-                <h2>Video Call application</h2>
-                <p>
-                  kanso is a Polish employemment flatfrom. It often helps developers to find a job that suits them
-                  easily by filtering
-                </p>
-              </div>
-            </div>
-          </div>
-          <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
-            <div class="list-project-section__item">
-              <div class="list-project-section__image">
-                <img src="./img/Movie.webp" alt="trello">
-              </div>
-              <div class="list-project-section__item__description">
-                <h2>Movie App</h2>
-                <p>
-                  kanso is a Polish employemment flatfrom. It often helps developers to find a job that suits them
-                  easily by filtering
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- project footer -->
-  <section class="brands-section">
-    <div class="brands-section__container">
-      <div class="brands-section-right">
-        <div class="brands-section-right__title">
-
-          <h1>Trusted by Brands all over the world</h1>
-        </div>
-        <div class="brands-section-right__content">
-          <img src="./img/oke.png" alt="">
-        </div>
-
-      </div>
-
-      <div class="swiper">
-        <div class="swiper-wrapper">
-
-          <div class="brands-section-left__content swiper-slide">
-            <h2>Oguz is by far my favourite UX/UI Designer</h2>
-            <p>and creative visionary. Working with him is alwmen is out of ays an amazing experience.
-              His design acumen is out of this world and he really pours his heart and soul into every project.
-              Highly recommend for UI/UX education & speaking opportunities as well as design lead for project of all
-              sizes.
-              THanks for everything you do</p>
-          </div>
-          <div class="brands-section-left__content swiper-slide">
-            <h2>Oguz is by far my favourite UX/UI Designer</h2>
-            <p>and creative visionary. Working with him is alwmen is out of ays an amazing experience.
-              His design acumen is out of this world and he really pours his heart and soul into every project.
-              Highly recommend for UI/UX education & speaking opportunities as well as design lead for project of all
-              sizes.
-              THanks for everything you do</p>
-          </div>
-          <div class="brands-section-left__content swiper-slide">
-            <h2>Oguz is by far my favourite UX/UI Designer</h2>
-            <p>and creative visionary. Working with him is alwmen is out of ays an amazing experience.
-              His design acumen is out of this world and he really pours his heart and soul into every project.
-              Highly recommend for UI/UX education & speaking opportunities as well as design lead for project of all
-              sizes.
-              THanks for everything you do</p>
-          </div>
- 
-        </div>
-        <div class="swiper-pagination"></div>
-       
-      </div>
-
-    </div>
-  </section>
-
-
-  <footer class="footer-section">
-    <div class="footer-container">
-      <ul class="footer_lists">
-        <li class="footeter_list">
-          <i class="fa-brands fa-facebook"></i>
-        </li>
-        <li class="footeter_list">
-          <i class="fa-brands fa-instagram-square"></i>
-        </li>
-        <li class="footeter_list">
-          <i class="fa-brands fa-twitter"></i>
-        </li>
-        <li>
-          <i class="fa-brands fa-linkedin"></i>
-        </li>
-      </ul>
-      <div class="footer_contact">
-        <div class="footer_contact__icon">
-          <i class="fa-solid fa-envelope"></i>
-        </div>
-        <div class="footer_contact_email">
-          <p>thang.duong@nfq.asia</p>
-        </div>
-      </div>
-    </div>
-  </footer>
-  <script src="https://kit.fontawesome.com/09aa63e20e.js" crossorigin="anonymous"></script>
-  <script src="./assets/js/main.js"></script>
-  <script>
-    AOS.init();
-  </script>
-</body>
-
+    <script
+      src="https://kit.fontawesome.com/09aa63e20e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/modalupImage.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>

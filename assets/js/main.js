@@ -7,7 +7,7 @@ navbar_button.addEventListener("click", () => {
 });
 
 const swiper = new Swiper(".swiper", {
-  effect: "coverflow",
+  effect: "sidebar",
   direction: "horizontal",
   loop: true,
 
@@ -16,7 +16,7 @@ const swiper = new Swiper(".swiper", {
     el: ".swiper-pagination",
   },
   autoplay: {
-    delay: 1000,
+    delay: 5000,
   },
   longSwipesMs: 300,
   longSwipesRatio: 0.5,
