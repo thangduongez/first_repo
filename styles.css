@@ -119,7 +119,7 @@ section {
   /* width: 1000px; */
   width: auto;
   max-width: 1000px;
-  font-size: 40px;
+  font-size: 20px;
 }
 
 .banner_name2 h1 {
@@ -127,8 +127,13 @@ section {
 }
 
 .banner_name3 {
+
   text-align: center;
   width: 60%;
+}
+
+.banner_name3 h2 {
+  font-weight: 400;
 }
 
 .banner__btn {
@@ -255,6 +260,7 @@ section {
 
   .banner_name3 h2 {
     font-size: 17px;
+    font-weight: 300;
     /* line-height: 39px; */
   }
 }

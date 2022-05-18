@@ -104,5 +104,8 @@
         font-size: 27px;
     }
 
-    .table-work-experience__title h2 {}
+    .table-work-experience__title>h2 {
+        border-bottom: 1px solid;
+        width: fit-content;
+    }
 }
