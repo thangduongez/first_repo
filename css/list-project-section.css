@@ -2,11 +2,13 @@
     width: 100%;
     margin-bottom: 200px;
 }
+
 .list-project-section__title h1 {
     margin: 0 auto;
     width: fit-content;
-    
+
 }
+
 .list-project-section__container {
     width: 75%;
     margin: 0 auto;
@@ -30,6 +32,11 @@
 .list-project-section__item__description {
     line-height: 2rem;
 }
+
+.list-project-section__item__description p {
+    font-weight: 300;
+}
+
 
 
 
@@ -63,7 +70,7 @@
 
 .find-project:hover {
     background-color: #e96514;
-}   
+}
 
 
 .find-project a {
@@ -71,6 +78,13 @@
 
     text-decoration: none;
 }
+
 .list-project-section__title h1 {
     font-size: 41px;
+}
+
+@media (max-width: 768px) {
+    .list-project-section__container {
+        width: 100%;
+    }
 }

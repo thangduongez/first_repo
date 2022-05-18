@@ -87,6 +87,10 @@
 }
 
 @media (max-width: 600px) {
+    .work-experience {
+        width: 100%;
+    }
+
     .table-work-experience__col1 {
         flex-direction: column;
         gap: 1rem;
@@ -99,7 +103,6 @@
     .table-work-experience h1 {
         font-size: 27px;
     }
-    .table-work-experience__title h2 {
-        
-    }
+
+    .table-work-experience__title h2 {}
 }
