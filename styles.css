@@ -1,3 +1,5 @@
+@import url('./css/animation.css');
+
 * {
   margin: 0;
   padding: 0;
@@ -225,6 +227,42 @@ section {
   width: 84px;
 }
 
+.scroll-top-btn {
+  color: #fff;
+  position: fixed;
+  transform: translateY(100%);
+  transition: var(--smooth);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  width: 50px;
+  height: 50px;
+  right: 35px;
+  bottom: 15px;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: #000;
+}
+
+.scroll-top-btn :hover {}
+
+.scroll-top-btn i {
+
+}
+
+
+.scroll-top-btn.append_btn {
+  opacity: 1;
+  transform: translateY(-25px);
+}
+
+.scroll-top-btn:hover {
+  animation: up infinite;
+  animation-duration: 1000ms;
+}
+
+
 .banner_services__content__item_content {
   display: flex;
   flex-direction: column;
@@ -254,14 +292,12 @@ section {
   }
 
   main {
-    /* width: 100%; */
     padding: 10px;
   }
 
   .banner_name3 h2 {
     font-size: 17px;
     font-weight: 300;
-    /* line-height: 39px; */
   }
 }
 
@@ -269,6 +305,12 @@ section {
   .banner_name2 h1 {
     font-size: 35px;
     line-height: 40px;
+  }
+
+  main {
+    width: 100%;
+    padding: 10px;
+    padding-top: 0;
   }
 
   body {

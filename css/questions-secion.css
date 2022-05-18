@@ -1,0 +1,38 @@
+.questions-section__container {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.questions-section__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.questions-section__content {
+    display: grid;
+    gap: 2rem;
+    width: 75%;
+    grid-template-columns: 1fr;
+
+}
+
+.questions-section__item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.questions-section__item i {
+    transform: rotate(180deg);
+}
+
+
+
+.questions-section__item__icon {
+    display: flex;
+    align-items: flex-start;
+    cursor: pointer;
+}
+

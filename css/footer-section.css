@@ -1,8 +1,10 @@
 .footer-section {
     width: 75%;
-    margin: 0 auto;
+    padding-top: 5px;
+    margin: 50px auto;
     margin-bottom: 100px;
     /* display: flex; */
+    border-top: 1px solid #f4f6fb;
     justify-content: center;
 }
 
@@ -39,3 +41,12 @@
 }
 
 .footer_contact_email {}
+
+@media (max-width: 768px) {
+    .footer_lists li {
+        list-style: none;
+        font-size: 17px;
+        cursor: pointer;
+        transition: var(--smooth);
+    }
+}

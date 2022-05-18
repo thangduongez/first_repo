@@ -16,6 +16,7 @@
 
 .list-project-section__contents {
     display: flex;
+    flex-wrap: wrap;
     margin-top: 20px;
     justify-content: space-around;
 }
@@ -24,6 +25,7 @@
     display: flex;
     flex-direction: column;
     width: 45%;
+    min-width: 445px;
     gap: 3rem;
     align-items: flex-start;
     justify-content: center;
@@ -36,9 +38,6 @@
 .list-project-section__item__description p {
     font-weight: 300;
 }
-
-
-
 
 .list-project-section__item {}
 
@@ -65,13 +64,11 @@
     border-radius: 26px;
     cursor: pointer;
     transition: all .3s ease-in;
-
 }
 
 .find-project:hover {
     background-color: #e96514;
 }
-
 
 .find-project a {
     color: #fff;
