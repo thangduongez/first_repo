@@ -42,7 +42,7 @@
 @media (max-width: 768px) {
     .footer_lists li {
         list-style: none;
-        font-size: 17px;
+        font-size: 30px;
         cursor: pointer;
         transition: var(--smooth);
     }
