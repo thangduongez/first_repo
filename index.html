@@ -8,15 +8,15 @@
     <link rel="icon" href="./img/nfqFaicon.jpg" type="image/x-icon" />
     <!-- <meta property="og:image" content="https://www.w3schools.com/images/w3schools_logo_436_2.png"> -->
     <link rel="stylesheet" href="./styles.css" />
-    <link rel="stylesheet" href="./css/work-experience.css" />
-    <link rel="stylesheet" href="./css/footer-section.css" />
-    <link rel="stylesheet" href="./css/list-project-section.css" />
-    <link rel="stylesheet" href="./css/section-banner-image.css" />
-    <link rel="stylesheet" href="./css/header-section-responsive.css" />
-    <link rel="stylesheet" href="./css/navbar.css" />
-    <link rel="stylesheet" href="./css/section-banner.css" />
-    <link rel="stylesheet" href="./css/modalupImage.css" />
-    <link rel="stylesheet" href="./css/questions-secion.css" />
+    <link rel="stylesheet" href="./assets/css/work-experience.css" />
+    <link rel="stylesheet" href="./assets/css/footer-section.css" />
+    <link rel="stylesheet" href="./assets/css/list-project-section.css" />
+    <link rel="stylesheet" href="./assets/css/section-banner-image.css" />
+    <link rel="stylesheet" href="./assets/css/header-section-responsive.css" />
+    <link rel="stylesheet" href="./assets/css/navbar.css" />
+    <link rel="stylesheet" href="./assets/css/section-banner.css" />
+    <link rel="stylesheet" href="./assets/css/modalupImage.css" />
+    <link rel="stylesheet" href="./assets/css/questions-secion.css" />
     <link
       rel="stylesheet"
       href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
@@ -131,7 +131,7 @@
       </section>
 
       <section class="banner__client">
-        <h1>Skills</h1>
+        <h1 class="banner__client_title">Skills</h1>
         <div class="banner__client__lists">
           <div
             data-aos="fade-right"
@@ -199,7 +199,7 @@
       <section class="banner_services">
         <div class="banner_services__background"></div>
         <div class="banner_services__content">
-          <h1>Services</h1>
+          <h1 class="banner_services__title">Services</h1>
           <div class="banner_services__content__list">
             <div
               data-aos="fade-down"
@@ -368,7 +368,7 @@
 
             <div
               class="list-project-section__content"
-              style="padding-top: 30px"
+              style="padding-top: 150px"
             >
               <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
                 <div class="list-project-section__item">
@@ -416,10 +416,7 @@
             </div>
           </div>
 
-          <div
-            class="swiper"
-            style="margin-left: 0; margin-right: 0; padding-top: 90px"
-          >
+          <div class="swiper" style="margin-left: 0; margin-right: 0">
             <div class="swiper-wrapper">
               <div class="brands-section-left__content swiper-slide">
                 <h2>Oguz is by far my favourite UX/UI Designer</h2>
@@ -474,8 +471,14 @@
         <div class="questions-section__container">
           <div class="questions-section__title">
             <h1>
-              A few things Client normals Ask me
-              <p><img style="width: 40px" src="./img/thinking.png" alt="" /></p>
+              A few things Client
+              <span
+                ><img
+                  style="width: 25px"
+                  src="./img/thinking.png"
+                  alt="questions_icon"
+              /></span>
+              normals Ask me ?
             </h1>
           </div>
           <div class="questions-section__content">
@@ -485,35 +488,30 @@
                 <i id="icon1" class="fa-solid fa-angle-up"></i>
               </div>
             </div>
-            <div class="questions-section__item">
+            <div
+              id="Q1"
+              class="questions-section__item"
+              valueP=" Yes, but i do scheduale the days and hours for each project
+            and give those hour and days to the people i work with"
+            >
               <div>
                 <h2>Do you work on more than one project</h2>
-                <p>
-                  Yes, but i do scheduale the days and hours for each project
-                  and give those hour and days to the people i work with
-                </p>
               </div>
               <div class="questions-section__item__icon">
                 <i id="icon2" class="fa-solid fa-angle-up"></i>
               </div>
             </div>
-            <div class="questions-section__item">
+            <div id="Q2" class="questions-section__item">
               <h2>Do you work on more than one project</h2>
               <div class="questions-section__item__icon">
-                <i id="icon3" class="fa-solid fa-angle-up"></i>
+                <i class="fa-solid fa-angle-up"></i>
               </div>
             </div>
-            <!-- <div class="questions-section__icon icon1">
-              <i class="fa-solid fa-angle-up"></i>
-            </div>
-            <div class="questions-section__icon icon2">
-              <i class="fa-solid fa-angle-up"></i>
-            </div>
-            <div class="questions-section__icon icon3">
-              <i class="fa-solid fa-angle-up"></i>
-            </div> -->
           </div>
+          <div class="circle_background-right"></div>
         </div>
+
+        <div class="circle_background-left"></div>
       </section>
     </main>
     <footer class="footer-section">
@@ -540,7 +538,6 @@
         <i class="fa-solid fa-house"></i>
       </div>
     </div>
-    <!-- </div> -->
 
     <div id="myModal" class="modal">
       <span class="close">&times;</span>

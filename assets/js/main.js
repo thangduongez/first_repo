@@ -1,16 +1,35 @@
 const menu_navbar = document.querySelector(".navbar__links");
 const navbar_button = document.querySelector(".navbar_icons");
 const btnScroll = document.querySelector(".scroll-top-btn");
-const btnOpenQuestion = document.querySelector(".questions-section__item");
+const btnOpenQuestion = document.getElementsByClassName(
+  "questions-section__item"
+);
 const iconArrowUp = document.querySelector(".fa-angle-up");
 navbar_button.addEventListener("click", () => {
   menu_navbar.classList.toggle("navbar__open");
   navbar_button.classList.toggle("open");
 });
 
-btnOpenQuestion.addEventListener("click", () => {
-  iconArrowUp.style.transform = "rotate(180deg)";
-});
+for (var i = 0; i < btnOpenQuestion.length; i++) {
+  btnOpenQuestion[i].setAttribute("onclick", "onClickEvent(this)");
+}
+
+function onClickEvent(e) {
+  const allChildNodes = e.childNodes[3];
+  const iChild = allChildNodes.childNodes[1];
+  let addHeightFitContent = window.innerWidth <= 680 ? 100 : 50;
+  if (e.classList.value == "questions-section__item") {
+    iChild.style.transform = "rotate(0)";
+    let height = e.offsetHeight + 50;
+    e.style.height = height + "px";
+    e.classList.toggle("open-question");
+  } else {
+    let height = e.offsetHeight - 50;
+    e.style.height = height + "px";
+    e.classList.toggle("open-question");
+    iChild.style.transform = "rotate(180deg)";
+  }
+}
 
 const topFunction = () => {
   document.body.scrollTop = 0; // For Safari
@@ -20,8 +39,6 @@ btnScroll.addEventListener("click", () => {
   topFunction();
 });
 window.onscroll = () => {
-  // console.log(document.documentElement.scrollTop);
-
   if (document.documentElement.scrollTop > 200) {
     btnScroll.classList.add("append_btn");
   } else {
@@ -50,6 +67,4 @@ const swiper = new Swiper(".swiper", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
-
-  // And if we need scrollbar
 });

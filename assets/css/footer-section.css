@@ -1,5 +1,5 @@
 .footer-section {
-    width: 75%;
+    width: 85%;
     padding-top: 5px;
     margin: 50px auto;
     margin-bottom: 100px;
@@ -12,9 +12,6 @@
     display: flex;
     /* width: 65%; */
     justify-content: center;
-
-    /* align-items: center; */
-    /* justify-content: space-between */
 }
 
 .footer_lists {

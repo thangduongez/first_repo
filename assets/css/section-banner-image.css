@@ -65,7 +65,27 @@
 
 .banner__client h1 {
   font-size: 41px;
+  display: flex;
+  flex-direction: column;
 }
+
+.banner__client_title {
+  position: relative;
+}
+
+
+
+.banner__client_title::after {
+  content: '';
+  transform: translate(-10px, 47px);
+  width: 120%;
+  height: 108%;
+  position: absolute;
+  border: solid 5px var(--hover-a);
+  border-color: var(--hover-a) transparent transparent transparent;
+  border-radius: 50%/25% 25% 0 0;
+}
+
 
 .banner__client__lists {
   display: flex;
@@ -111,11 +131,11 @@
     gap: 1rem;
     transition: var(--smooth);
     grid-template-areas:
-    "center center  center center"
-    "topleft topleft  right  right"
+      "center center  center center"
+      "topleft topleft  right  right"
       "topleft topleft  right right"
       "bottomleft bottomleft  bottomright bottomright"
-      "bottomleft bottomleft  bottomright bottomright"; 
+      "bottomleft bottomleft  bottomright bottomright";
     margin: 200px auto;
   }
 }

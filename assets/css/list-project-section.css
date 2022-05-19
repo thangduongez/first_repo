@@ -10,7 +10,7 @@
 }
 
 .list-project-section__container {
-    width: 75%;
+    width: 85%;
     margin: 0 auto;
 }
 
@@ -25,7 +25,7 @@
     display: flex;
     flex-direction: column;
     width: 45%;
-    min-width: 445px;
+    min-width: 300px;
     gap: 3rem;
     align-items: flex-start;
     justify-content: center;
