@@ -21,6 +21,7 @@ html {
 main {
   width: 100%;
   padding: 100px;
+  /* transition: var(--smooth); */
   padding-top: 0;
 }
 

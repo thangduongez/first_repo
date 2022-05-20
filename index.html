@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="./assets/css/section-banner.css" />
     <link rel="stylesheet" href="./assets/css/modalupImage.css" />
     <link rel="stylesheet" href="./assets/css/questions-secion.css" />
+    <link rel="stylesheet" href="./assets/css/loading.css" />
     <link
       rel="stylesheet"
       href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
@@ -280,7 +281,7 @@
         <table class="table-work-experience">
           <tr>
             <th>
-              <h1>Work experience</h1>
+              <h1 class="work-experience_title">Work experience</h1>
             </th>
           </tr>
           <!-- row 1 -->
@@ -342,7 +343,7 @@
       <section class="list-project-section">
         <div class="list-project-section__container">
           <div class="list-project-section__title">
-            <h1>What i do ?</h1>
+            <h1 class="list-project-section__title_h1">What i do ?</h1>
           </div>
           <div class="list-project-section__contents">
             <div class="list-project-section__content">
@@ -564,6 +565,17 @@
       </div>
     </div>
 
+    <div class="loading">
+      <div class="gooey">
+        <span class="dot"></span>
+        <div class="dots">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+
     <div id="myModal" class="modal">
       <span class="close">&times;</span>
       <img class="modal-content" id="img01" />
@@ -575,6 +587,7 @@
       crossorigin="anonymous"
     ></script>
     <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/loading.js"></script>
     <script src="./assets/js/modalupImage.js"></script>
     <script>
       AOS.init();

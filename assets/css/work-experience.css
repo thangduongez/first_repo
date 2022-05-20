@@ -3,7 +3,6 @@
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    /* margin-bottom: 200px; */
     overflow: hidden;
     position: relative;
     padding-bottom: 100px;
@@ -16,9 +15,28 @@
 .table-work-experience h1 {
     font-size: 40px;
     width: fit-content;
-    position: relative;
+    /* position: relative; */
     margin: 0 auto;
 }
+
+.work-experience_title {
+    position: relative;
+    z-index: 3;
+}
+
+.work-experience_title::after {
+    content: '';
+    left: -10px;
+    top: 46px;
+    z-index: -4;
+    width: 120%;
+    height: 108%;
+    position: absolute;
+    border: solid 5px var(--hover-a);
+    border-color: var(--hover-a) transparent transparent transparent;
+    border-radius: 50%/25% 25% 0 0;
+}
+
 
 .table-work-experience-title h1 ::after {
     content: '';
@@ -31,9 +49,7 @@
     border-radius: 50%/25% 25% 0 0;
 }
 
-/* .table-work-experience__title h1{
-   
-} */
+
 .table-work-experience__item {
     display: flex;
     gap: 2rem;
