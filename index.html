@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Thang Duong Portfolio</title>
     <link rel="icon" href="./assets/img/nfqFaicon.jpg" type="image/x-icon" />
-    <!-- <meta property="og:image" content="https://www.w3schools.com/images/w3schools_logo_436_2.png"> -->
     <link rel="stylesheet" href="./styles.css" />
     <link rel="stylesheet" href="./assets/css/work-experience.css" />
     <link rel="stylesheet" href="./assets/css/footer-section.css" />
@@ -22,7 +21,7 @@
       rel="stylesheet"
       href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
     />
-
+    
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
@@ -45,10 +44,10 @@
               <a href="#home">Home</a>
             </li>
             <li class="navbar__link">
-              <a href="#skill">Skill</a>
+              <a href="#skills">Skills</a>
             </li>
             <li class="navbar__link">
-              <a href="#work-experience">Work Experience</a>
+              <a href="#work-experience">Resume</a>
             </li>
             <li class="navbar__link">
               <a href="#footer">Contact</a>
@@ -85,7 +84,7 @@
         </div>
       </section>
 
-      <section id="skill" class="banner-image">
+      <section id="skills" class="banner-image">
         <div
           class="banner-image__image item3"
           data-aos="fade-down"
@@ -281,14 +280,14 @@
         <table class="table-work-experience">
           <tr>
             <th>
-              <h1 class="work-experience_title">Work experience</h1>
+              <h1 class="work-experience_title">Resume</h1>
             </th>
           </tr>
           <!-- row 1 -->
           <tr class="table-work-experience__col1">
             <td class="table-work-experience__item item_col1">
               <div class="table-work-experience__title">
-                <h2>Work Experience</h2>
+                <h2 class="table-work-experience__title_work-experience">Work Experience</h2>
               </div>
               <div class="table-work-experience__item__content">
                 <h3>Uber <i class="fa-solid fa-arrow-trend-up"></i></h3>
@@ -309,7 +308,7 @@
             </td>
             <td class="table-work-experience__item item_col2">
               <div class="table-work-experience__title">
-                <h2>Education</h2>
+                <h2 class="table-work-experience__title_Education">Education</h2>
               </div>
               <div class="table-work-experience__item__content">
                 <h3>
@@ -535,9 +534,10 @@
             </div>
           </div>
           <div class="circle_background-right"></div>
+          <div class="circle_background-left"></div>
         </div>
 
-        <div class="circle_background-left"></div>
+     
       </section>
     </main>
     <footer id="footer" class="footer-section">
@@ -588,6 +588,7 @@
     ></script>
     <script src="./assets/js/main.js"></script>
     <script src="./assets/js/loading.js"></script>
+    <script src="./assets/js/navbar.js"></script>
     <script src="./assets/js/modalupImage.js"></script>
     <script>
       AOS.init();

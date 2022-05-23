@@ -1,14 +1,14 @@
-const menu_navbar = document.querySelector(".navbar__links");
-const navbar_button = document.querySelector(".navbar_icons");
+// const menu_navbar = document.querySelector(".navbar__links");
+// const navbar_button = document.querySelector(".navbar_icons");
 const btnScroll = document.querySelector(".scroll-top-btn");
 const btnOpenQuestion = document.getElementsByClassName(
   "questions-section__item"
 );
 const iconArrowUp = document.querySelector(".fa-angle-up");
-navbar_button.addEventListener("click", () => {
-  menu_navbar.classList.toggle("navbar__open");
-  navbar_button.classList.toggle("open");
-});
+// navbar_button.addEventListener("click", () => {
+//   menu_navbar.classList.toggle("navbar__open");
+//   navbar_button.classList.toggle("open");
+// });
 
 for (var i = 0; i < btnOpenQuestion.length; i++) {
   btnOpenQuestion[i].setAttribute("onclick", "onClickEvent(this)");
@@ -38,8 +38,11 @@ const topFunction = () => {
 btnScroll.addEventListener("click", () => {
   topFunction();
 });
+
 window.onscroll = () => {
+  // console.log(document.documentElement.scrollTop );
   if (document.documentElement.scrollTop > 200) {
+    
     btnScroll.classList.add("append_btn");
   } else {
     btnScroll.classList.remove("append_btn");
@@ -68,3 +71,4 @@ const swiper = new Swiper(".swiper", {
     prevEl: ".swiper-button-prev",
   },
 });
+

@@ -97,10 +97,10 @@
     width: 500px;
     border-radius: 50%;
     border: 2px solid #fae4d1;
-    transform: translateX(-150px);
+    transform: translateX(-500px);
     position: absolute;
     z-index: -1;
-    bottom: 70px;
+    /* bottom: 70px; */
 }
 
 @media (max-width: 768px) {

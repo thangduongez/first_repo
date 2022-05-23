@@ -21,6 +21,8 @@ html {
 main {
   width: 100%;
   padding: 100px;
+  /* color: #fff;
+  background-color: #0D0E10; */
   /* transition: var(--smooth); */
   padding-top: 0;
 }
@@ -54,7 +56,7 @@ section {
 
 .container {
   width: 100%;
-  padding: 0 140px;
+  padding: 0 100px;
   display: flex;
   justify-content: center;
 }
@@ -175,9 +177,13 @@ section {
   align-items: center;
 }
 
+
+
 .banner_services__title {
   position: relative;
 }
+
+
 
 .banner_services__title::after {
   content: '';
@@ -185,8 +191,8 @@ section {
   width: 120%;
   height: 108%;
   position: absolute;
-  border: solid 5px var(--hover-a);
-  border-color: var(--hover-a) transparent transparent transparent;
+  border: solid 5px #B5C0FF;
+  border-color: #B5C0FF transparent transparent transparent;
   border-radius: 50%/25% 25% 0 0;
 }
 

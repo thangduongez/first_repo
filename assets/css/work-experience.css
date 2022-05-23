@@ -12,29 +12,36 @@
     width: 85%
 }
 
-.table-work-experience h1 {
-    font-size: 40px;
-    width: fit-content;
-    /* position: relative; */
-    margin: 0 auto;
-}
+
 
 .work-experience_title {
+    font-size: 40px;
+    width: fit-content;
+    margin: 0 auto;
     position: relative;
     z-index: 3;
 }
 
 .work-experience_title::after {
     content: '';
-    left: -10px;
-    top: 46px;
-    z-index: -4;
+    position: absolute;
     width: 120%;
     height: 108%;
-    position: absolute;
-    border: solid 5px var(--hover-a);
-    border-color: var(--hover-a) transparent transparent transparent;
+    bottom: 0;
+    left: 0;
+    transform: translate(-25px, 62px);
+    border: solid 5px #FFE0D7;
+    border-color: #FFE0D7 transparent transparent transparent;
     border-radius: 50%/25% 25% 0 0;
+    /* content: '';
+    z-index: -4;
+    width: 120%;
+    transform: translate(-180px, 46px);
+    height: 108%;
+    position: absolute;
+    border: solid 5px #D7DDFF;
+    border-color: #D7DDFF transparent transparent transparent;
+    border-radius: 50%/25% 25% 0 0; */
 }
 
 
@@ -57,11 +64,37 @@
     flex-direction: column;
 }
 
+.table-work-experience__title_work-experience {
+    position: relative;
+    width: fit-content; 
+}
 
+.table-work-experience__title_work-experience:after {
+    content: '';
+    transform: translate(-210px, 27px);
+    width: 106%;
+    height: 108%;
+    position: absolute;
+    border: solid 5px #D0EAEC;
+    border-color: #D0EAEC transparent transparent transparent;
+    border-radius: 50%/25% 25% 0 0;
+}
 
+.table-work-experience__title_Education {
+    position: relative;
+    width: fit-content; 
+}
 
-
-
+.table-work-experience__title_Education:after {
+    content: '';
+    transform: translate(-128px, 26px);
+    width: 108%;
+    height: 108%;
+    position: absolute;
+    border: solid 5px #FFE0D7;
+    border-color: #FFE0D7 transparent transparent transparent;
+    border-radius: 50%/25% 25% 0 0;
+}
 
 
 .table-work-experience__col1 {
@@ -121,6 +154,16 @@
     background-color: transparent;
     border: 1px solid #eaf5f6;
 }
+@media (max-width: 768px) {
+    .table-work-experience__title_work-experience:after{
+        transform: translate(-216px, 31px);
+    }
+    .table-work-experience__title_Education:after{
+        transform: translate(-139px, 29px); 
+    }
+    
+}
+
 
 @media (max-width: 600px) {
     .work-experience {
@@ -139,9 +182,7 @@
     .table-work-experience h1 {
         font-size: 27px;
     }
-
-    .table-work-experience__title>h2 {
-        border-bottom: 1px solid;
-        width: fit-content;
-    }
+    .work-experience_title::after {
+        transform: translate(-17px, 45px);  
+    } 
 }

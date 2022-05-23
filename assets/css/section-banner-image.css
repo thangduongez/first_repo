@@ -82,7 +82,7 @@
   height: 108%;
   position: absolute;
   border: solid 5px var(--hover-a);
-  border-color: var(--hover-a) transparent transparent transparent;
+  border-color: #FBE0CB transparent transparent transparent;
   border-radius: 50%/25% 25% 0 0;
 }
 
