@@ -8,7 +8,7 @@
 }
 
 .questions-section__container {
-    width: 50%;
+    width: 80%;
     /* position: relative; */
     display: flex;
     gap: 3rem;
