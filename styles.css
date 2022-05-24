@@ -250,6 +250,11 @@ section {
   width: 84px;
 }
 
+.banner_services__content__item-icon img {
+  width: 100%;
+  height: auto
+}
+
 .scroll-top-btn {
   color: #fff;
   position: fixed;

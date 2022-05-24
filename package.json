@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Watch product here : https://thangduongnfq.github.io/portfolio/",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node server.js",
     "watch": "gulp watch",
